@@ -1,6 +1,14 @@
-## readme
+## CVE-2018-11776 Playground 
 
-This repository contains what you need to explore CVE-2018-11776 (Apache struts namespace injection vulnerability).
+This repository contains everything you need to explore CVE-2018-11776 (Apache struts namespace injection vulnerability).
+
+The playground consists of a docker container running tomcat, and vulnerable struts applications using many, many versions of struts.
+
+The playground allows you to stand up a vulnerable struts application at an arbitrary version of struts in a single command. This is useful for testing exploits.
+
+## Requirements
+
+Docker.  That's it.
 
 ## Build
 
